@@ -120,6 +120,7 @@ def should_search(input):
 
     return ret_response
 
-
-res = should_search("Hum Hindustani")
-print([res[i]['title'] for i in range(0, len(res))])
+if __name__ == "__main__":
+    # Example usage
+    res = should_search("Hum Hindustani")
+    print([res[i]['title'] for i in range(0, len(res))])
